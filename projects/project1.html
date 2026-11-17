@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proyek website portofolio pribadi menggunakan HTML dan CSS melalui Visual Studio Code.">
+    <title>Website Portofolio Pribadi | Project 1</title>
+
+    <style>
+        :root {
+            --utama: #c45c89;
+            --background: #fff8fb;
+            --teks: #44343d;
+            --border: #f1dce6;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: var(--background);
+            color: var(--teks);
+            line-height: 1.7;
+        }
+
+        header {
+            padding: 22px 8%;
+            background: white;
+            border-bottom: 1px solid var(--border);
+        }
+
+        header a {
+            color: var(--utama);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            max-width: 950px;
+            margin: 45px auto;
+            padding: 0 20px;
+        }
+
+        .label {
+            color: var(--utama);
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 13px;
+        }
+
+        h1 {
+            font-size: 38px;
+            margin: 10px 0;
+            color: #392832;
+        }
+
+        h2 {
+            color: #392832;
+            margin-bottom: 12px;
+        }
+
+        .deskripsi {
+            margin-bottom: 25px;
+        }
+
+        .gambar {
+            width: 100%;
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            margin: 20px 0 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            margin-bottom: 20px;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .tag {
+            background: #fdeaf2;
+            color: #a44270;
+            padding: 7px 14px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #806b76;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 29px;
+            }
+
+            .card {
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <a href="../index.html#portfolio">← Kembali ke Portofolio</a>
+</header>
+
+<main>
+    <span class="label">Project 01</span>
+
+    <h1>Website Portofolio Pribadi</h1>
+
+    <p class="deskripsi">
+        Proyek pembuatan website portofolio pribadi sebagai salah satu
+        tugas Ujian Akhir Semester (UAS) mata kuliah Pemrograman Web
+        menggunakan HTML dan CSS melalui Visual Studio Code.
+    </p>
+
+    <img src="../images/project1.jpg"
+         alt="Tampilan website portofolio pribadi"
+         class="gambar"
+         loading="lazy">
+
+    <section class="card">
+        <h2>Deskripsi Proyek</h2>
+        <p>
+            Website Nia Cosmestic merupakan website toko online yang dibuat
+            untuk menampilkan produk-produk kosmetik kepada pengunjung.
+            Website ini dirancang dengan tampilan yang menarik, rapi,
+            dan mudah digunakan sehingga pengunjung dapat melihat
+            informasi produk yang tersedia.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>Tujuan Proyek</h2>
+        <p>
+            Tujuan pembuatan website ini adalah untuk menerapkan materi
+            Pemrograman Web serta mengembangkan kemampuan dalam membuat
+            website toko kosmetik menggunakan HTML dan CSS.
+            Website ini juga bertujuan untuk memperkenalkan produk
+            Nia Cosmestic melalui media digital.
+    </p>
+    </section>
+
+    <section class="card">
+        <h2>Proses Pengerjaan</h2>
+        <p>
+            Proyek dikerjakan dengan menyusun struktur halaman website
+            menggunakan HTML, kemudian mengatur tampilan, warna,
+            tata letak, dan elemen halaman menggunakan CSS.
+            Seluruh proses pengerjaan dilakukan melalui Visual Studio Code.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>Tools dan Teknologi</h2>
+        <div class="tags">
+            <span class="tag">Visual Studio Code</span>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+        </div>
+    </section>
+
+    <section class="card">
+        <h2>Hasil dan Pembelajaran</h2>
+        <p>
+            Hasil dari proyek ini adalah sebuah website toko kosmetik
+            bernama Nia Cosmestic yang memiliki tampilan menarik dan
+            tertata. Website ini menampilkan informasi serta produk
+            kosmetik sebagai media pengenalan toko secara digital.
+            Melalui proyek ini, saya dapat menerapkan keterampilan
+            HTML dan CSS dalam membangun sebuah website.
+        </p>
+    </section>
+</main>
+
+<footer>
+    © 2026 | Website Portofolio
+</footer>
+
+</body>
+</html>
